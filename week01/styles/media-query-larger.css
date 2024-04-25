@@ -1,0 +1,17 @@
+/* Media Query */
+@media screen and (min-width: 500px) {
+
+    /* Header */
+    header {
+        background-color: black;
+        /* Change background color to black */
+        color: white;
+        /* Change text color to white */
+    }
+
+    /* Main */
+    main {
+        grid-template-columns: repeat(2, 1fr);
+        /* Display two columns of equal size */
+    }
+}
